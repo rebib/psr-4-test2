@@ -1,0 +1,39 @@
+{
+    "name": "rebib/phpunitexample",
+    "description": "phpunit example",
+    "type": "package",
+    "keywords": [        
+        "phpunit",
+        "example"
+    ],
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Zhao",
+            "email": "zhao2051@gmail.com"
+        }
+    ],    
+    "require": {
+        "php": "^7.2",
+        "symfony/yaml": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rebib\\": "src/Rebib"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rebib\\Test\\": "tests/Rebib/Test"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    }
+}
