@@ -1,6 +1,6 @@
 {
-    "name": "rebib/phpunitexample",
-    "description": "phpunit example",
+    "name": "rebib/example-php-package-with-phpunit",
+    "description": "example php package with phpunit",
     "type": "package",
     "keywords": [        
         "phpunit",
