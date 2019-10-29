@@ -1,4 +1,4 @@
-# PHP package with PHPUnit test
+# PHP package with PHPUnit test example
 
 ## Execute
 
