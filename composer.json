@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Rebib\\Test2": "src/Rebib"
+            "Rebib\\Example": "src/Rebib"
         }
     },
     "autoload-dev": {
