@@ -14,17 +14,11 @@
         }
     ],    
     "require": {
-        "php": "^7.2",
-        "symfony/yaml": "^4.3"
+        "php": "^7.2"
     },
     "autoload": {
         "psr-4": {
             "Rebib\\Example": "src/Rebib"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Rebib\\Test\\": "tests/Rebib/Test"
         }
     },
     "config": {
