@@ -1,5 +1,5 @@
 {
-    "name": "rebib/example-php-package-with-phpunit",
+    "name": "rebib/psr-4-test2",
     "description": "example php package with phpunit",
     "type": "package",
     "keywords": [        
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Rebib\\": "src/Rebib"
+            "Rebib\\Test2": "src/Rebib"
         }
     },
     "autoload-dev": {
